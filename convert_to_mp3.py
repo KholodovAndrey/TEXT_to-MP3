@@ -3,6 +3,7 @@
 
 This script converts a file of any of the following text formats:
 .pdf, .docx, .txt, or .rtf into an mp3 file.
+
 """
 
 from pathlib import Path
