@@ -3,7 +3,6 @@
 
 This script converts a file of any of the following text formats:
 .pdf, .docx, .txt, or .rtf into an mp3 file.
-
 """
 
 from pathlib import Path
@@ -58,7 +57,9 @@ def text_to_mp3(text, file_path, language='en'):
 
 
 def main():
-    """Основная часть."""
+    """Основной скрипт.
+    Выбор формата, приветствие, выбор языка и само преобразование."""
+
     global converse
     form = input('''Choose input format: 'pdf', 'txt', 'rtf' or 'docx': ''')
     tprint('%s--TO--MP3' % form.upper(), font='bulbhead')
